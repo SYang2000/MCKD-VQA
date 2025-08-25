@@ -34,7 +34,7 @@ Implementation of [Multimodal Commonsense Knowledge Distillation for Visual Ques
 <p align="center"><img src="MCKD_Architecture.jpeg" width="750" /></p>
 
 ## Updates
-- [08/24/2025]:🎉 We have uploaded the code 
+- [08/24/2025]:🎉 We have released the code!!!
 
 ## Abstract
 Existing Multimodal Large Language Models (MLLMs) and Visual Language Pretrained Models (VLPMs) have shown remarkable performances in general Visual Question Answering (VQA). However, these models struggle with VQA questions that require external commonsense knowledge due to the challenges in generating high-quality prompts and the high computational costs of fine-tuning. In this work, we propose a novel graph-based multimodal commonsense knowledge distillation framework that constructs a unified relational graph over commonsense knowledge, visual objects and questions through a Graph Convolutional Network (GCN) following a teacher-student environment. This proposed framework is flexible with any type of teacher and student models without further fine-tuning, and has achieved competitive performances on the ScienceQA dataset.
@@ -42,6 +42,9 @@ Existing Multimodal Large Language Models (MLLMs) and Visual Language Pretrained
 
 ## How to Use Multimodal Commonsense Knowledge Distillation for Visual Question Answering
 Please follow the instruction in the code to run "Teacher Training" and "Knowledge Distillation" one-by-one. You can see the retrieved commonsense triplet from the Commonsense_Retrieval Demo.
+
+You can also check the inference output from the distilled VILT, VILBERT and GPT-3 (zero-shot).
+
 
 
 ------
